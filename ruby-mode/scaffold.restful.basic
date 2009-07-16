@@ -1,6 +1,6 @@
 #name : generating a RESTful controller
 #key : restful
-#group : rails.controller
+#group : rails.scaffold
 #condition : (rails/controller?)
 # --
 before_filter :capture_${1:`(singularize-string (rails/cur-res-title))`}

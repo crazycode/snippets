@@ -1,6 +1,6 @@
 #name : generating a nested RESTful controller spec
 #key : restful.nested_spec
-#group : rails.controller_spec
+#group : rails.scaffold_spec
 #condition : (rails/controller-spec?)
 # --
 $0
