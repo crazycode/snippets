@@ -2,4 +2,4 @@
 #key : par
 #group : rails
 # --
-params[:${id}]
+params[:${id}]$0

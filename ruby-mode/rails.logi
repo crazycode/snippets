@@ -2,4 +2,4 @@
 #key : logi
 #group : rails
 # --
-logger.info "${Text here...}"
+$>logger.info "${Text here...}"
