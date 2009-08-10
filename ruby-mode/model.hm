@@ -3,4 +3,4 @@
 #group : rails.model
 #condition : (rails/model?)
 # --
-has_many :${1:model}${2:, :dependent => :destroy}
+has_many :${1:model}${2:, :dependent => :${3:destroy}}
