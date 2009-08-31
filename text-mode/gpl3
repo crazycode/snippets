@@ -16,6 +16,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #contributor : Jon Atkinson <jon@jonatkinson.co.uk>
 #name : GNU General Public License Version 3
+#expand-env: ((yas/indent-line 'fixed))
 # --
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
