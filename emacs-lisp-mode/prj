@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name : JDE Project File Content
+# key : prj
+# group : jde
+# contributor : crazycode@gmail.com
+# --
+(jde-project-file-version "1.0")
+
+(jde-set-variables
+  '(jde-build-function (quote (jde-mvn-build)))
+   '(jde-compile-option-command-line-args
+        (quote ("-Xlint:all" "-Xlint:-serial"))))
+
+(with-pom ()
+    (jde-mvn-set-jde-variables :include-dependency-sources))
+
+;; Map C-c C-v C-t to run current test
+(define-key jde-mode-map [remap jde-jdb-menu-debug-applet]
+    'jde-mvn-build-run-test)
