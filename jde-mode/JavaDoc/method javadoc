@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name : Method Javadoc
+# key : mdoc
+# contributor : crazycode@gmail.com
+# --
+/**
+ * ${1:类说明}
+ *
+ * @param ${2:param} ${3:参数说明}
+ * @return ${4:返回类型}
+ */$0
